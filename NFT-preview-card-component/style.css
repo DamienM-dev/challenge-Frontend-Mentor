@@ -1,0 +1,141 @@
+/* mini reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* end mini reset */
+
+/* general */
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+}
+p {
+    font-size: 18px;
+    color: hsl(214, 24%, 41%);
+}
+/* end general */
+
+/* lien */
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color:hsl(178, 100%, 50%);
+}
+a img:hover {
+    background-color: turquoise;
+}
+/* end lien */
+
+/* gestion background card */
+#color-card-hover {
+    width:90%;
+    height: 95%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 0 0 25px 25px;
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    opacity: 0;
+}
+#eye {
+display: block;
+margin: auto;
+margin-top: 42%;
+
+
+}
+#color-card-hover:hover{
+    opacity: 0.5;
+}
+#block-image {
+    position: relative;
+}
+
+/*end gestion background card */
+
+
+/* card body*/
+h1{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+#first-p {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+#equilibrium-picture {
+    border-radius: 25px;
+    width:90%;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    background: none;
+}
+
+#body-card {
+    width: 80%;
+    max-width: 400px;
+    background-color: hsl(216, 50%, 16%);
+    display: block;
+    margin: 100px auto;
+    border-radius: 30px;
+    }
+#days {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    }
+p:first-child {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    margin-left: 25px;
+    }
+#clock-p {
+    margin-right: 25px;
+    font-size: 21px;
+    }
+#clock {
+    padding-right: 10px;
+    }
+#ethereum-logo {
+        padding-right: 10px;
+    }
+    /* end card body */
+
+/* footer card */
+
+#divider {
+    border-bottom: 1px hsl(215, 32%, 27%) solid ;
+    width: 80%;
+    margin: 20px auto;
+    }
+footer {
+    display: flex;
+    margin-left: 25px;
+    }
+footer img {
+    width: 40%;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+footer p {
+    margin-left: 0px;
+    position: absolute;
+    margin-left: 73px;
+    margin-top: 18px;
+    }
+footer figure {
+    position: relative;        
+    }
+footer span a {
+    color: white;
+    }
+    /* end footer card */
+    
